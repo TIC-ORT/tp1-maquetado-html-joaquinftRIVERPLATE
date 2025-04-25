@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+    background-color: rgb(94, 124, 141);
+    height: 100px;
+    margin: 0;
+}
+.topbox {
+width: 20%;
+background-color: brown;
+height: 30px;
+}
