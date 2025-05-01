@@ -7,11 +7,78 @@
 .top {
     width: 100%;
     background-color: rgb(94, 124, 141);
-    height: 100px;
+    height:150px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
 }
-.topbox {
-width: 20%;
+.caja {
+width:100px;
 background-color: brown;
-height: 30px;
+height:100px;
+margin-left: 50px;
+}
+.linea1{
+    width: 150px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+.linea2{
+    width: 70px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+.linea3{
+    width: 100px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+.linea4{
+    width: 50px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+.linea5{
+    width: 200px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+.linea6{
+    width: 90px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+.linea7{
+    width: 170px;
+    background-color: brown;
+    height:30px;
+    margin-left: 100px;
+}
+html, body {
+    height: 100%;
+  }
+  
+  .centro {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    right: 400px;
+    height: calc(100% - 150px);
+    background-color: rgb(161, 42, 165);
+        display: flex;
+    align-items: center;
+    justify-content:flex-start;
+  }
+.divisionizquierda {
+    width:100px;
+    background-color: brown;
+    height:100px;
+    margin-left: 50px;
 }
